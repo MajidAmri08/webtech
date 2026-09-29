@@ -1,0 +1,72 @@
+/* stijl.css - oefening 2: selectors schrijven en lezen */
+
+/* Schrijf onder elke opdracht de regel met de selector die precies die
+   elementen raakt. Gebruik de declaratie die erbij staat, zodat je in de
+   browser meteen ziet wat je raakte. Voeg niets toe aan index.html. */
+
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+}
+nav a {
+      Color: crimson;
+}
+footer {
+      font-size: 0.875rem;
+}
+.rassen > li {
+      outline: 2px solid crimson;
+}
+h2 + p      {
+      font-style: italic;
+}
+.uren li:nth-child(odd){
+      background-color: #f1e9dc;
+}
+.uren li:last-child{
+      color: crimson;
+}
+.slogan, .intro {
+      color: darkslateblue;
+}
+nav a:hover, 
+nav a:focus {
+      background-color: yellow;
+}
+
+/* 1. alle links in 
+
+/* 2. alleen de paragrafen in de footer -> font-size: 0.875rem; */
+
+
+/* 3. alleen de lijstitems van het BUITENSTE niveau in de lijst met de class
+      rassen (dus niet de items van de binnenlijsten) -> outline: 2px solid crimson;
+      (outline tekent een kader rond precies het element dat je raakte; de
+      property zelf komt in hoofdstuk 3) */
+
+
+/* 4. de paragraaf die onmiddellijk na elke h2 komt -> font-style: italic; */
+
+
+/* 5. elk oneven item in de lijst met openingsuren -> background-color: #f1e9dc; */
+
+
+/* 6. het laatste item in de lijst met openingsuren -> color: crimson; */
+
+
+/* 7. de slogan en de intro tegelijk, in één regel -> color: darkslateblue; */
+
+
+/* 8. elke link in main wanneer de muis erover gaat OF wanneer ze focus heeft
+      -> background-color: yellow; */
+
+
+
+/* ---- Lezen: welke elementen raken deze vijf selectors? Schrijf het antwoord
+   in één zin per selector in README.md. Verander hier niets. ---- */
+
+/* a. header nav ul li a */
+/* b. article > p */
+/* c. .uren li:nth-child(3) */
+/* d. h2 ~ p */
+/* e. .rassen li:first-child */

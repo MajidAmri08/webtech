@@ -1,0 +1,89 @@
+/* stijl.css - oefening 3: voorspel, dan kijk. Wijzig dit bestand niet. */
+
+/* Opmaak van de pagina zelf; doet niet mee in de vragen. */
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.vraag {
+  border: 1px solid #8a8a89;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- vraag 1 ---- */
+a {
+  color: green;
+}
+
+/* ---- vraag 2 ---- */
+.v2-tekst {
+  color: red;
+}
+
+.v2-tekst {
+  color: blue;
+}
+
+/* ---- vraag 3 ---- */
+.opvallend {
+  color: red;
+}
+
+em {
+  color: blue;
+}
+
+/* ---- vraag 4 ---- */
+.v4 > a {
+  color: green;
+}
+
+.v4 a {
+  color: red;
+}
+
+/* ---- vraag 5 ---- */
+.een.twee.drie {
+  color: red;
+}
+
+#v5-tekst {
+  color: blue;
+}
+
+/* ---- vraag 6 ---- */
+.v6 {
+  color: red;
+}
+
+.v6-tekst {
+  color: blue;
+}
+
+/* ---- vraag 7 ---- */
+.v7 {
+  color: red;
+}
+
+/* ---- vraag 8 ---- */
+.v8-tekst {
+  color: red;
+}
+
+/* ---- vraag 9 ---- */
+h3 {
+  color: red !important;
+}
+
+.v9-tekst {
+  color: blue;
+}
+
+/* ---- vraag 10 ---- */
+.v10-tekst {
+  color: green;
+  font-size: 1.5rem
+  color: blue;
+}
