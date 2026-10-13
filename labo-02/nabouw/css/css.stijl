@@ -1,0 +1,67 @@
+:root {
+    --color-paper: #fbf7f0;
+    --color-inkt: #2b2b2b;
+    --color-muted: #6b6b6b;
+    --color-accent: #b5451b
+    --color-zebra: #f1e9dc;
+    --font-heading: Georgia, serif;
+    --font-body: Verdana, sans-serif;
+    --base-size: 1rem;
+    --line-height-body: 1.6;
+}
+
+body {
+    background-color: #fbf7f0;
+    color: #2b2b2b;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, sans-serif;
+    color: #2b2b2b;
+}
+
+h1 {
+    font-size: 2.25;
+}
+
+h2 {
+    font-size: 1.75;
+}
+
+h3 {
+    font-size: 1.75;
+}
+
+.text-muted,
+small {
+    color: #6b6b6b;
+    font-size: 0.75rem:
+}
+
+a {
+    color: #b5451b;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #2b2b2b;
+}
+
+nav a {
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 0.5rem, 0.75rem;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #b5451b;
+}
+
+footer p {
+    color: #6b6b6b;
+    font-size: 0.875rem;
+}
+

@@ -18,19 +18,19 @@ Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, speci
 
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| 1 | groen |selector |groen |ja |
+| 2 |blauw |volgorde in css |blauw |ja |
+| 3 |rood |class |rood |ja |
+| 4 |rood |volgorde |rood |ja |
+| 5 |blauw |ID selector |blauw |ja |
+| 6 |blauw |volgorde element |blauw |ja |
+| 7 |rood |inheritence op element |rood |ja |
+| 8 |blauw |inheritence |blauw |ja |
+| 9 |rood |!important |rood |ja |
+| 10 |blauw |volgorde |groen |nee |
 
 Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duurde het langst, en waarom?)
-
+Vraag 10, want ik had niet gezien dat er een puntkomma ontbreekte waardoor het niet blauw werd.
 ## 4. De nabouw
 
 - Welke selector koos je voor de links in de navigatie, en waarom geen class?
