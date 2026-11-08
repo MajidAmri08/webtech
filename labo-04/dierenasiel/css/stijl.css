@@ -87,7 +87,6 @@ h1 {
 }
 
 .uitgelicht {
-    display: grid;
     grid-column: 1 / 3;
 }
 
@@ -104,5 +103,30 @@ h1 {
 .soort {
     line-height: 1.6;
     color: var(--gedempt);
+}
 
+.beschrijving {
+    flex: 1;
+    margin-bottom: var(--space);
+}
+
+.knop {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: var(--tekst);
+    font-family: var(--knoppen-font);
+    background-color: var(--balk-knop);
+}
+
+.knop:hover,
+.knop:focus {
+    background-color: var(--inkt);
+}
+footer {
+    background-color: var(--balk-knop);
+    color: var(--tekst);
+    padding: 0.75rem 1rem;
+    text-align: center;
+    font-size: 0.875rem;
 }

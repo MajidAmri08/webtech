@@ -1,0 +1,34 @@
+/* stijl.css - labo 4, Mondriaan: modeloplossing; reset.css is linked before this file */
+
+/* === tokens === */
+:root {
+  --color-lijn: #2554ab;
+  --color-lila: #a090af;
+  --color-bruin: #a16122;
+  --color-geel: #e7c948;
+  --color-marine: #13234e;
+  --color-olijf: #ae9310;
+  --color-rood: #cd2424;
+  --lijn: 2vh;
+}
+
+/* a square of 70vh, centred; the blue shows through the gaps (4.5) */
+.schilderij {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: var(--lijn);
+  width: 70vh;
+  height: 70vh;
+  margin: 15vh auto;
+  padding: var(--lijn);
+  background-color: var(--color-lijn);
+}
+
+/* placement on lines (4.6); two cells in the middle row stay empty */
+.lila   { grid-column: 1 / 4; background-color: var(--color-lila); }
+.bruin  { grid-column: 4;     background-color: var(--color-bruin); }
+.geel   { grid-column: 1;     background-color: var(--color-geel); }
+.marine { grid-column: 4;     background-color: var(--color-marine); }
+.olijf  { grid-column: 1 / 4; background-color: var(--color-olijf); }
+.rood   { grid-column: 4;     background-color: var(--color-rood); }
